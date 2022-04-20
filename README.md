@@ -1,1 +1,1 @@
-This is a BeCode challenger that helps us practice our HTML skills!
+This is a BeCode challenge that helps us practice our HTML skills!
