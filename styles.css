@@ -25,6 +25,7 @@ img {
   width: 200px;
   border-radius: 10px;
   border: 2px solid #d1cea9;
+  object-fit: cover;
 }
 
 .container-intro {
@@ -73,6 +74,13 @@ td {
   background-color: #ebe5d8;
 }
 
+.hobbies-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 #hobbies-header {
   font-size: 30px;
   margin-bottom: 30px;
@@ -81,6 +89,7 @@ td {
 
 #hobbies-ul {
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 #hobbies-ul > li {
