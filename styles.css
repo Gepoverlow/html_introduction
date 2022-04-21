@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #262622;
+}
+
 .container-all {
   display: flex;
   flex-direction: column;
@@ -106,6 +110,7 @@ td {
   align-items: center;
   justify-content: center;
   padding: 100px;
+  background-color: beige;
 }
 
 #contribution-text {
@@ -160,4 +165,8 @@ td {
 
 .links-container > a:hover:after {
   width: 100%;
+}
+
+.hidden {
+  display: none;
 }
