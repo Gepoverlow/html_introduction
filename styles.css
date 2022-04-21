@@ -194,3 +194,8 @@ td {
   max-height: 1500px;
   transition: max-height 1s ease-in;
 }
+
+.container-links h1 {
+  color: aliceblue;
+  position: absolute;
+}
