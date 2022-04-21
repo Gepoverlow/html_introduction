@@ -22,8 +22,9 @@ body {
   gap: 20px;
 
   background-color: #97c2a3;
+  transition: height 1s ease;
+  max-height: 1500px;
 }
-
 img {
   height: 200px;
   width: 200px;
@@ -144,7 +145,7 @@ td {
   transition: opacity 0.5s ease-in-out;
 }
 
-.links-container {
+.container-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,13 +155,13 @@ td {
   gap: 100px;
 }
 
-.links-container > a {
+.container-links > a {
   position: relative;
   color: aliceblue;
   text-decoration: none;
 }
 
-.links-container > a::after {
+.container-links > a::after {
   content: "";
   position: absolute;
   background-color: #ded581;
@@ -171,11 +172,11 @@ td {
   transition: 0.3s;
 }
 
-.links-container > a:hover {
+.container-links > a:hover {
   color: #ded581;
 }
 
-.links-container > a:hover:after {
+.container-links > a:hover:after {
   width: 100%;
 }
 
@@ -183,4 +184,13 @@ td {
   position: absolute;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+}
+
+.container {
+  max-height: 100px;
+}
+
+.container:hover {
+  max-height: 1500px;
+  transition: max-height 1s ease-in;
 }
