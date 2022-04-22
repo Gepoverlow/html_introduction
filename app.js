@@ -27,11 +27,6 @@ containers.forEach((container) => {
   });
 });
 
-let hoverTexts = document.querySelectorAll(".hover");
-for (let i = 0; i < hoverTexts.length; i++) {
-  hoverTexts[i].textContent = `Hover me to see ${containerNames[i]}`;
-}
-
 containers.forEach((container) =>
   container.addEventListener("mouseover", function checkHovered() {
     const hovered = isHover(container);
@@ -65,3 +60,8 @@ containers.forEach((container) =>
     });
   })
 );
+
+let hoverTexts = document.querySelectorAll(".hover");
+for (let i = 0; i < hoverTexts.length; i++) {
+  hoverTexts[i].textContent = `Hover me to see ${containerNames[i]}`;
+}

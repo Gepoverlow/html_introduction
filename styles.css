@@ -192,7 +192,8 @@ td {
 
 .container:hover {
   max-height: 1500px;
-  transition: max-height 5s ease;
+  transition: max-height 1s ease;
+  overflow: hidden;
 }
 
 .container-links h1 {
